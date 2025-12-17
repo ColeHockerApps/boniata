@@ -18,9 +18,8 @@ final class BoniataPaths: ObservableObject {
         let defaults = UserDefaults.standard
 
         let defaultEntry = "https://oktaykaangames.github.io/gettwelve"
-       // let defaultEntry = "https://doancongbang1991.github.io/mobileapp/mobile/gettwelve/"
 
-        let defaultPrivacy = "https://example.com/privacy"
+        let defaultPrivacy = "https://oktaykaangames.github.io/botwelve-privacy"
 
         if let saved = defaults.string(forKey: entryKey),
            let url = URL(string: saved) {
