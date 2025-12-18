@@ -11,7 +11,7 @@ struct BoniataStageView: UIViewRepresentable {
     func makeCoordinator() -> Handler {
         Handler(startPath: startPath, paths: paths, keeper: keeper, onReady: onReady)
     }
-
+ 
     func makeUIView(context: Context) -> WKWebView {
 
         let view = WKWebView(frame: .zero)
